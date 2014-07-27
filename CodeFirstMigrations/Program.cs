@@ -8,6 +8,10 @@ namespace CodeFirstMigrations
 {
     class Program
     {
+        //EF Migration Links
+        //http://weblogs.asp.net/scottgu/code-first-development-with-entity-framework-4
+        //http://www.appetere.com/Blogs/SteveM/April-2012/Entity-Framework-Code-First-Migrations
+        //http://elegantcode.com/2012/04/12/entity-framework-migrations-tips/
         static void Main(string[] args)
         {
             var context = new MyContext();
