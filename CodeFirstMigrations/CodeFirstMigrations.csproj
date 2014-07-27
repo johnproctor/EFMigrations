@@ -55,6 +55,10 @@
     <Compile Include="Migrations\201407270948104_InitialCreate.Designer.cs">
       <DependentUpon>201407270948104_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201407271002522_AddPostcode.cs" />
+    <Compile Include="Migrations\201407271002522_AddPostcode.Designer.cs">
+      <DependentUpon>201407271002522_AddPostcode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyContext.cs" />
     <Compile Include="Program.cs" />
@@ -67,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201407270948104_InitialCreate.resx">
       <DependentUpon>201407270948104_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201407271002522_AddPostcode.resx">
+      <DependentUpon>201407271002522_AddPostcode.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
