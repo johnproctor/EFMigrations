@@ -15,7 +15,8 @@ namespace CodeFirstMigrations
             {
                 HouseNumber = 1,
                 Street = "My Road",
-                City = "My City"
+                City = "My City",
+                Postcode = "XXX XXX"
             });
 
             context.SaveChanges();
