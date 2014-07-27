@@ -12,5 +12,6 @@ namespace CodeFirstMigrations
         public Int32 HouseNumber { get; set; }
         public String Street { get; set; }
         public String City { get; set; }
+        public String Postcode { get; set; }
     }
 }
